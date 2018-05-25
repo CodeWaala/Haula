@@ -1,0 +1,19 @@
+.photo-bg {
+    background-image: url('../../Shared/main_images/background1.jpg');
+    position: absolute;
+    top:90px;
+    left: 0;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.container-help {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+.Row {
+    display: flex;
+}

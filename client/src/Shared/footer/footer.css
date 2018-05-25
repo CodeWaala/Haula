@@ -1,0 +1,176 @@
+#Footer {
+  background-color: white;
+  color: white;
+  padding-top: 30px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#Footer>.container {
+  margin:0 auto;
+}
+
+.footergrid{
+  height: 150px;
+}
+
+.logoFooter {
+  height:80px;
+}
+
+.btn {
+  background-color: rgb(0,171,250) !important;
+}
+
+.mainMenu>li>a, .firstMenu>li>a, .secondMenu>li>a {
+  color: rgb(0, 171, 250) !important;
+  padding-bottom: 10px !important;
+}
+
+.mainMenu>li>a:Hover, .firstMenu>li>a:Hover, .secondMenu>li>a:Hover {
+  color: gray !important;
+  padding-bottom: 10px !important;
+}
+
+#Footer .footer-copyright {
+  background-color: #333;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+
+}
+.footer-copyright {
+  position: relative;
+  color: white !important;
+}
+.getStarted {
+  margin-right: 20px !important;
+}
+
+#Footer .row {
+  margin-bottom: 60px;
+}
+
+#Footer .navbar-brand {
+  margin-top: 45px;
+  height: 65px;
+}
+
+#Footer .footer-copyright p {
+  margin: 10px;
+  color: white;
+}
+
+#Footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#Footer h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  color:gray;
+}
+
+#Footer h2 a {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+#Footer a {
+  color: #d2d1d1;
+  text-decoration: none;
+}
+
+#Footer a:hover,
+#Footer a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#Footer .social-networks {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 16px;
+  color: gray;
+}
+
+#Footer .social-networks a {
+  font-size: 32px;
+  color: gray !important;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+#Footer .social-networks a:hover {
+  text-decoration: none;
+}
+
+#Footer .facebook:hover {
+  color: gray;
+}
+
+#Footer .google:hover {
+  color: #ef1a1a;
+}
+
+#Footer .twitter:hover {
+  color: #00aced;
+}
+
+#Footer .btn {
+  color: white;
+  background-color: rgb(0,171,250);
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  #myFooter {
+    text-align: center;
+  }
+  .container {
+    margin-left: 15%;
+  }
+}
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+  -webkit-flex: 1 0 auto;
+  min-height: 200px;
+}
+
+#Footer {
+  flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+}
+
+.footer-copyright {
+  background-color: rgb(0, 171, 250) !important;
+}

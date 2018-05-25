@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Lato" rel="stylesheet');
+
+/* .body{
+        position: relative;
+        background-color: #F2EEDD;
+        background-image: linear-gradient(to bottom, #7DE2FC 0%, #ffecd2 100%);
+        height: 400rem;
+        min-height: 300vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+/*.img1{
+    background-image: url('./components/images/main_images/main_box1-02.jpg');
+    height: 50%;
+}*/
+
+.containerTwo {
+    display: flex;
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.boxy{
+    position: relative;
+    right: 45px;
+    width:300px;
+    height:300px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3{
+    align-items: center;
+    position: relative;
+    align-content: center;
+}
+.icons{
+    font-size: 50px;
+    justify-content: center;
+    position: relative;
+    left:110px;
+    color: darkgrey;
+}
+
+
+.row-containerTwo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.row-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 11%;
+    left: 15%;
+}
+
+.row-container-main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.personIcon{
+    justify-content: center;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.second {
+    z-index: 0;
+}
+
+.parallax { 
+        /* The image used */
+        width: 100%;
+        /* Set a specific height */
+        height: 497px; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+.mover-btn{
+    position: absolute;
+    left: 27%;
+    top: 57%;
+    color: #26abf8;
+    background-color: white !important;
+    padding: 12px 50px;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px; 
+}
+
+.customer-btn {
+    position: absolute;
+    left: 60%;
+    top: 57%;
+    color: #26abf8;
+    background-color: white !important;
+    padding: 12px 50px;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+.boxes {
+    flex: 0;
+    top: 1%;
+    left: 350px;
+    height: 500px !important;
+}
+
+.stepOne-box {
+    background-color: #26abf8 !important;
+    position: relative;
+    min-height: 970px;
+}
+
+.stepOne {
+    flex: 0;
+    position: absolute;
+    left: 19%;
+    top: 0;
+    height: 600px !important;
+}
+
+.stepTwo {
+    position: absolute;
+    left: 28%;
+    top:590px;
+    width: 50% !important;
+}
+
+
+@media screen and (max-width: 1473px) {
+  .mover-btn{
+        position: absolute;
+        left: 22%;
+        top: 57%;
+        color: #26abf8;
+        background-color: white !important;
+        padding: 12px 50px;
+        border-radius: 4px;
+        font-family: 'Lato', sans-serif;
+        font-size: 25px; 
+    }
+
+    .customer-btn {
+        position: absolute;
+        left: 62%;
+        top: 57%;
+        color: #26abf8;
+        background-color: white !important;
+        padding: 12px 50px;
+        border-radius: 4px;
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+    }
+    .stepOne {
+        flex: 0;
+        position: absolute;
+        left: 15%;
+        top: 0;
+        height: 600px !important;
+    }
+
+    .stepTwo {
+        position: absolute;
+        left: 23%;
+        top: 590px;
+        width: 55% !important;
+    }
+}
+
+@media screen and (max-width: 1176px) {
+  .mover-btn{
+        position: absolute;
+        left: 19%;
+        top: 57%;
+        color: #26abf8;
+        background-color: white !important;
+        padding: 12px 50px;
+        border-radius: 4px;
+        font-family: 'Lato', sans-serif;
+        font-size: 25px; 
+    }
+
+    .customer-btn {
+        position: absolute;
+        left: 64%;
+        top: 57%;
+        color: #26abf8;
+        background-color: white !important;
+        padding: 12px 50px;
+        border-radius: 4px;
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+    }
+
+    .stepOne {
+        flex: 0;
+        position: absolute;
+        left: 7%;
+        top: 0;
+        height: 600px !important;
+    }
+
+    .stepTwo {
+        position: absolute;
+        left: 19%;
+        top: 590px;
+        width: 65% !important;
+    }
+}
+
+@media screen and (max-width: 1037px) {
+  .mover-btn{
+        position: absolute;
+        left: 22%;
+        top: 57%;
+        color: #26abf8;
+        background-color: white !important;
+        padding: 12px 50px;
+        border-radius: 4px;
+        font-family: 'Lato', sans-serif;
+        font-size: 25px; 
+    }
+
+    .customer-btn {
+        position: absolute;
+        left: 62%;
+        top: 57%;
+        color: #26abf8;
+        background-color: white !important;
+        padding: 12px 50px;
+        border-radius: 4px;
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+    }
+    .stepOne {
+        flex: 0;
+        position: absolute;
+        left: 2%;
+        top: 0;
+        height: 600px !important;
+    }
+
+    .stepTwo {
+        position: absolute;
+        left: 12%;
+        top:590px;
+        width: 75% !important;
+    }
+
+    .personIcon{
+        justify-content: center;
+        align-content: center;
+        width: 100px;
+        height: 100px;
+    }
+}
