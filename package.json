@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "mysql": "^2.15.0",
-    "sequelize": "^4.37.8"
-  }
-}
